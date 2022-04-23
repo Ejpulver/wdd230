@@ -33,4 +33,4 @@ document.getElementById("lastmodified").textContent = `Last modified: ${fullDate
 
 let copyrightYear = new Date().getFullYear();
 
-document.querySelector(".copyright").textContent = `&copy; ${copyrightYear} | Easton Pulver | Utah`
+document.querySelector(".copyright").textContent = `\u00A9 ${copyrightYear} | Easton Pulver | Utah`
