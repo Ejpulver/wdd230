@@ -30,3 +30,7 @@ const year = date.getFullYear();
 const fullDate = `${dayName}, ${date.getDate()} ${monthName} ${year}`;
 
 document.getElementById("lastmodified").textContent = `Last modified: ${fullDate}`;
+
+let copyrightYear = new Date().getFullYear();
+
+document.querySelector(".copyright").textContent = `&copy; ${copyrightYear} | Easton Pulver | Utah`
