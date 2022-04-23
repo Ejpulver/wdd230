@@ -6,7 +6,7 @@ font-family: "times new roman", serif;
 }
 
 body {
-    max-width: 960 px;
+    max-width: 500px;
     margin: 0 auto;
     justify-content: center;
 }
@@ -14,4 +14,38 @@ body {
 header {
     background-color: blue;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    box-shadow: 1px 1px 1px 1px #888;
+    border-radius: 3px 3px 3px 3px;
+    font-family: "arial", sans-serif;
+}
+
+.name-headline {
+    grid-column: 3/6;
+    padding-top: 30px;
+}
+.header-image {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#lastmodified {
+    color: yellow;
+    margin-left: 125px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    justify-items: center;
+    box-shadow: 1px 1px 1px 1px #888;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.copyright {
+    margin-left: 150px;
+    padding-top: 10px;
 }
