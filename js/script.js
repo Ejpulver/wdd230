@@ -23,7 +23,7 @@ const months = [
     "December"
 ];
 
-const date = new date(document.lastModified);
+const date = new Date(document.lastModified);
 const dayName = days[date.getDay()];
 const monthName = months[date.getMonth()];
 const year = date.getFullYear();
