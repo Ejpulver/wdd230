@@ -1,0 +1,16 @@
+img {
+    max-width: 100%;
+}
+p {
+font-family: "times new roman", serif;
+}
+
+body {
+    max-width: 960 px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: blue;
+    color: white;
+}
