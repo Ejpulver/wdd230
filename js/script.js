@@ -29,4 +29,4 @@ const monthName = months[date.getMonth()];
 const year = date.getFullYear();
 const fullDate = `${dayName}, ${date.getDate()} ${monthName} ${year}`;
 
-document.getElementById("lastmodified").textContent = fullDate;
+document.getElementById("lastmodified").textContent = `Last modified: ${fullDate}`;
