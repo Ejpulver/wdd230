@@ -1,4 +1,4 @@
-@media only screen and (min-width: 414px) {
+
     h1,h2,h3,h4,h5,h6 {
         font-family: 'Radio Canada', sans-serif;
     }
@@ -61,4 +61,3 @@
         grid-column: 2;
         margin-left: 20px;
     }    
-}
