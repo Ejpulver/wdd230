@@ -1,0 +1,29 @@
+body {
+    background-color: #82FF9E;
+}
+header {
+    background-color: #B594B6;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+nav div {
+    flex: 1 1 auto;
+}
+nav a {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+header, nav, body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1, h2, h3 {
+    font-family: 'Macondo', cursive;
+}
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
