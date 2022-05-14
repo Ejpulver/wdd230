@@ -70,3 +70,7 @@ nav ul {
 nav ul.open {
     display: block;
 }
+section {
+    height: 200px;
+    border-style: groove;
+}
