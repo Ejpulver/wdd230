@@ -1,0 +1,18 @@
+nav {
+    background-color: #eee;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav button {
+    background: transparent;
+    border: none;
+    color: #555
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
