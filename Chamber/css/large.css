@@ -1,6 +1,30 @@
 @media only screen and (min-width: 64rem) {
+
+nav button {
+    display: none;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
 nav ul li a {
     padding: .5rem 1rem;
+}
+header h1 {
+    margin-left: -75px;
+}
+.twitter-logo {
+    margin-left: -50px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hero-section {
+    width: 400px;
+    height: 400px;
+    grid-column: 2/4;
+    grid-row: 1/2;
 }
 
 }

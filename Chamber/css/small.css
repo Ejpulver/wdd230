@@ -1,6 +1,12 @@
 img {
     width: 100%;
 }
+p {
+    font-family: 'Oswald', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Macondo', cursive;
+}
 header {
     background-color: #B594B6;
     display: grid;
@@ -32,9 +38,6 @@ header h1 {
 }
 main {
     background-color: #82FF9E;
-}
-footer {
-    background-color: #eee;
 }
 header, nav, main, footer {
     max-width: 960px;
@@ -73,4 +76,27 @@ nav ul.open {
 section {
     height: 200px;
     border-style: groove;
+}
+section div {
+    border-style: groove;
+    height: 200px;
+}
+footer {
+    background-color: #eee;
+    justify-items: center;
+}
+.footer-logo {
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+}
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

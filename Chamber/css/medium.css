@@ -1,15 +1,17 @@
 @media only screen and (min-width: 35rem) {
-nav button {
-    display: none;
+.twitter-logo {
+    margin-left: -100px;
 }
-nav ul#primaryNav {
-    display: flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0,0,0,0.3)
+header h1 {
+    margin-left: -125px;
 }
-nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0,0,0,0.3)
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-bottom {
+    grid-column: 1/4;
+    grid-row: 2;
 }
 
 }
