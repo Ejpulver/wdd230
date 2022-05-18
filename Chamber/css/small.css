@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 img {
     width: 100%;
 }
@@ -10,37 +15,37 @@ h1, h2, h3 {
 header {
     background-color: #B594B6;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .header-logo {
     height: 75px;
     width: 75px;
+    grid-column: 1;
 }
 header h1 {
-    grid-column: 2/3;
-    grid-row: 1;
+    grid-column: 2;
     font-size: medium;
-    margin-left: -50px;
+}
+header div {
+    grid-column: 4;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.social-header img {
+    justify-self: flex-start;
 }
 .facebook-logo {
-    grid-column: 3;
-    grid-row: 1;
     height: 25px;
     width: 25px;
-    margin-left: 100px;
 }
 .twitter-logo {
-    grid-column: 4;
-    grid-row: 1;
     height: 25px;
     width: 25px;
-    margin-left: -25px;
 }
 main {
     background-color: #82FF9E;
-}
-header, nav, main, footer {
-    max-width: 960px;
 }
 nav {
     grid-column: 5;
@@ -75,28 +80,61 @@ nav ul.open {
 }
 section {
     height: 200px;
+    width: 540px;
     border-style: groove;
 }
 section div {
     border-style: groove;
     height: 200px;
 }
+section em {
+    padding-left: 15px;
+}
+section div em {
+    padding-left: 15px;
+}
 footer {
     background-color: #eee;
     justify-items: center;
+    position: absolute;
+    top: 1300px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .footer-logo {
     height: 150px;
     width: 150px;
-    justify-content: center;
 }
 .footer-top {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 .footer-middle {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3 {
+    display: none;
+}
+.multi-section {
+    height: 400px;
+}
+.section-1, .section-2 {
+    width: 500px;
+    margin-left: 18px;
+}
+.footer-address {
+    margin-top: -20px;
+}
+#lastmodified {
+    margin-top: -10px;
 }

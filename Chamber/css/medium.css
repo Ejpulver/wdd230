@@ -1,9 +1,6 @@
 @media only screen and (min-width: 35rem) {
-.twitter-logo {
-    margin-left: -100px;
-}
-header h1 {
-    margin-left: -125px;
+header, main, footer, section {
+    width: 100%;
 }
 footer {
     display: grid;
