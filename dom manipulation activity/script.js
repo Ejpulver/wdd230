@@ -10,9 +10,6 @@ button.addEventListener('click', () => {
     const list_button = document.createElement("button");
     const list_text = document.createElement('span');
 
-    if (input = '') {
-        
-    }
     listItem.append(list_text);
     list_text.append(myItem);
     listItem.append(list_button);
@@ -24,6 +21,7 @@ button.addEventListener('click', () => {
     })
 
     input.focus();
+
 }); 
 
 
