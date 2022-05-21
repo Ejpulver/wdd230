@@ -4,7 +4,7 @@ const list = document.querySelector('.list');
 
 button.addEventListener('click', () => {
     const myItem = input.value;
-    input.value = '';
+    if (input.value != '') {
 
     const listItem = document.createElement("li");
     const list_button = document.createElement("button");
@@ -19,8 +19,8 @@ button.addEventListener('click', () => {
     list_button.addEventListener('click', () => {
         list.remove(listItem);
     })
-
-    input.focus();
+}
+input.focus();
 
 }); 
 
