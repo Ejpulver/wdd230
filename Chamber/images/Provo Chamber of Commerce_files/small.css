@@ -54,6 +54,8 @@ header {
 main {
     display: flex;
     flex-direction: column;
+    margin: 10px 0;
+    padding: 1px 0 1px 1px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -92,8 +94,6 @@ section {
     height: 200px;
     border-style: groove;
     background-color: #82FF9E;
-    margin: 10px 0;
-    padding: 1px 0 1px 1px;
 }
 section div {
     border-style: groove;
@@ -120,7 +120,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
 }
 .footer-middle {
     display: flex;
@@ -136,20 +135,11 @@ footer {
     display: none;
 }
 .multi-section {
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    border-style: groove;
-    background-color: #82FF9E;
-
+    height: 400px;
 }
 .section-1, .section-2 {
-    border-style: groove;
-    width: 75%;
-    margin: 10px 0;
-    padding: 1px 0 1px 1px;
-    justify-content: center;
-    align-items: center;
+    width: 500px;
+    margin-left: 18px;
 }
 .footer-address {
     margin-top: -20px;
@@ -159,7 +149,4 @@ footer {
 }
 .join {
     display: none;
-}
-.footer-headline {
-    margin-top: 5;
 }
