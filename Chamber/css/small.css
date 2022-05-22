@@ -90,21 +90,13 @@ nav ul.open {
 }
 section {
     height: 200px;
+    width: 100%;
     border-style: groove;
     background-color: #82FF9E;
     margin: 10px 0;
     padding: 1px 0 1px 1px;
 }
-section div {
-    border-style: groove;
-    height: 50%;
-}
-section em {
-    padding-left: 15px;
-}
-section div em {
-    padding-left: 15px;
-}
+
 footer {
     background-color: #eee;
     justify-items: center;
