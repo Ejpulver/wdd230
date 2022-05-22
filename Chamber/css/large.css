@@ -1,7 +1,9 @@
 @media only screen and (min-width: 64rem) {
-
+main {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 nav button {
-    display: none;
+   display: none;
 }
 nav ul {
     display: flex;
@@ -10,21 +12,52 @@ nav ul {
 nav ul li a {
     padding: .5rem 1rem;
 }
-header h1 {
-    margin-left: -75px;
-}
-.twitter-logo {
-    margin-left: -50px;
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.hero-section {
-    width: 400px;
-    height: 400px;
+.hero {
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 1/3;
+    height: 415px;
 }
-
+.event {
+    grid-column: 1;
+    grid-row: 1;
+}
+.weather {
+    grid-column: 1;
+    grid-row: 2;
+}
+.join {
+    grid-column: 1;
+    grid-row: 3;
+}
+.news {
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.multi-section {
+    grid-column: 4;
+    grid-row: 1/4;
+    flex-direction: column;
+    height: 630px;
+}
+.section-3 {
+    display: block;
+    width: 75%;
+    margin: 10px 0;
+    padding: 1px 0 1px 1px;
+}
+.footer-top {
+    grid-column: 1/3;
+}
+.footer-bottom {
+    grid-column: 2/4;
+    grid-row: 3;
+}
+.footer-headline {
+    grid-column: 2;
+    grid-row: 1;
+}
+.footer-address {
+    grid-column: 2;
+    grid-row: 2;
+}
 }
