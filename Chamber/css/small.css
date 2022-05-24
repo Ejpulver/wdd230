@@ -1,10 +1,7 @@
-img {
-    width: 100%;
-}
 p {
     font-family: 'Oswald', sans-serif;
 }
-h1, h2, h3, span {
+h1, h2, h3, span, section {
     font-family: 'Macondo', cursive;
 }
 header {
@@ -54,6 +51,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -96,7 +94,56 @@ section {
     margin: 10px 0;
     padding: 1px 0 1px 1px;
 }
-
+.hero {
+    position: relative;
+}
+.hero-banner {
+    position: absolute;
+    color: white;
+    bottom: 15px;
+    padding-left: 10px;
+    font-size: larger;
+}
+.hero-image {
+    width: 100%;
+    height: 100%;
+}
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+}
+.weather-image {
+    width: 100%;
+    height: 100%;
+}
+.weather-title, .temperature, .weather-type {
+    color: white;
+}
+.weather-title {
+    position: absolute;
+    top: -30px;
+    font-size: xx-large;
+    color: #ff4500;
+}
+.temperature {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-size: x-large;
+}
+.weather-type {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    font-size: x-large;
+    color: #fff44f;
+}
+.news {
+    text-align: center;
+}
 footer {
     background-color: #eee;
     justify-items: center;
@@ -128,11 +175,12 @@ footer {
     display: none;
 }
 .multi-section {
-    height: 450px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     border-style: groove;
     background-color: #82FF9E;
+    width: 100%;
 
 }
 .section-1, .section-2 {
@@ -140,8 +188,6 @@ footer {
     width: 75%;
     margin: 10px 0;
     padding: 1px 0 1px 1px;
-    justify-content: center;
-    align-items: center;
 }
 .footer-address {
     margin-top: -20px;
