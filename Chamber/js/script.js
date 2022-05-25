@@ -42,3 +42,8 @@ let copyrightYear = new Date().getFullYear();
 document.querySelector(".copyright").textContent = `\u00A9 ${copyrightYear} | Easton Pulver | Utah`
 
 document.getElementById("currentdate").textContent = fullDate;
+
+if (dayName == `Monday` || dayName == `Tuesday`) {
+    alert(`🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.`)
+};
+
