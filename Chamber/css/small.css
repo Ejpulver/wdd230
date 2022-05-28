@@ -141,6 +141,14 @@ section {
     font-size: x-large;
     color: #fff44f;
 }
+.wind-speed {
+    position: absolute;
+    bottom: 25px;
+    color: #fff44f;
+}
+.wind-chill {
+    position: absolute;
+}
 .news {
     text-align: center;
 }
