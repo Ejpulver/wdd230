@@ -47,3 +47,5 @@ if (dayName == `Monday` || dayName == `Tuesday`) {
     alert(`🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.`)
 };
 
+document.querySelector(".wind-speed").textContent = `Wind Speed: 5 mph`
+
