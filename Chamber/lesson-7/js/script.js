@@ -22,7 +22,7 @@ const loadImages = (image) => {
       });
     }, imgOptions);
 
-    imagesToLoad.forEach((img) => {
+    images.forEach((img) => {
       observer.observe(img);
     });
   } 
