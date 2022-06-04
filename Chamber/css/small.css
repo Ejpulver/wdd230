@@ -209,3 +209,7 @@ footer {
 .footer-headline {
     margin-top: 5px;
 }
+.images-section {
+    display: flex;
+    flex-direction: column;
+}
