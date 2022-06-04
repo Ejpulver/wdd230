@@ -54,6 +54,7 @@ main {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #82FF9E;
 }
 nav {
     grid-column: 5;
@@ -212,4 +213,7 @@ footer {
 .images-section {
     display: flex;
     flex-direction: column;
+}
+picture {
+    align-self: center;
 }
