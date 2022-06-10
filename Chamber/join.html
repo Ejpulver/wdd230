@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for the provo chamber of commerce">
+    <title>Provo Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+        <img class="header-logo" src="images/chamber-of-commerce-logo.webp" alt="Chamber of commerce logo">
+        <h1 class="header-headline">Provo Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <button id="hamburgerButton">&#9776;</button>
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-header">
+        <img class="facebook-logo" src="images/facebook.png" alt="facebook logo">
+        <img class="twitter-logo" src="images/twitter.png" alt="twitter logo">
+        </div>
+        <div class="current-date">
+            <span id="currentdate"></span>
+        </div>
+    </header>
+    <main>
+        <form  method="get" action="thank-you.html">
+            <h1>Join us!</h1>
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name * <input type="text" name="fname" placeholder="John" required></label>
+                <label class="top">Last Name * <input type="text" name="lname" placeholder="Doe" required></label>
+                <label class="top">Business Position Title <input type="text" name="btitle"></label>
+                <label class="top">Email * <input type="email" name="email" placeholder="johndoe@example.com" required></label>
+                <label class="top">Cell Phone Number <input type="tel" name="tel" placeholder="123-456-7890"required></label>
+                <label class="top">Business Name/Title <input type="text" name="bname" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level Information</legend>
+                <div>Choose from our four membership levels</div>
+                <label class="middle"><input type="radio" name="membership" value="NP"> Non-Profit Membership</label>
+                <label class="middle"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
+                <label class="middle"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+                <label class="middle"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Describe your Business</legend>
+                <label class="top"><input type="text" name="description"></label>
+            </fieldset>
+            <input type="submit" value="Apply For Membership" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <div class="footer-top">
+        <img class="footer-logo" src="images/chamber-of-commerce-logo.jpeg" alt="footer logo">
+        <h2 class="footer-headline">Provo Chamber of Commerce</h2>
+        <p class="footer-address">
+            351 West Center Street
+            Provo, UT 84604
+        </p>
+        </div>
+        <div class="footer-middle">
+        <p class="footer-email">info@provo.org</p>
+        <p class="footer-number">(801) 852-6505</p>
+        <p>&#xf124; Location Map</p>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright"></p>
+            <p id="lastmodified"></p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>

@@ -86,5 +86,11 @@ footer {
 .copyright, #lastmodified {
     font-size: smaller;
 }
+form {
+    grid-column: 1/4;
+}
+form label.top input {
+    max-width: 20rem;
+}
 
 }

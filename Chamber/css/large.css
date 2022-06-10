@@ -60,4 +60,10 @@ nav ul li a {
     grid-column: 2;
     grid-row: 2;
 }
+form {
+    grid-column: 1/5;
+}
+form label.middle {
+    padding: .4rem 0;
+}
 }
