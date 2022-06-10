@@ -1,0 +1,27 @@
+table {
+    margin: 10px auto;
+    border: thin solid;
+    border-collapse: collapse;
+}
+tr:first-child th {
+    background-color: red;
+    color: white;
+}
+tr:nth-child(2) th {
+    background-color: orangered;
+}
+th, td {
+    border: 1px solid;
+    padding: 7px 15px;
+    font-family: Ubuntu, sans-serif;
+}
+td {
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+tfoot {
+    background-color: lightsteelblue;
+    font-size: small;
+}
