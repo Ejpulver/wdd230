@@ -276,3 +276,6 @@ form label.top input:required:valid {
     align-items: center;
     width: 320px;
 }
+.directory-headline {
+    text-align: center;
+}

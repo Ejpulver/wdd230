@@ -66,4 +66,7 @@ form {
 form label.middle {
     padding: .4rem 0;
 }
+.directory-headline {
+    grid-column: 2/4;
+}
 }

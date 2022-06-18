@@ -92,5 +92,11 @@ form {
 form label.top input {
     max-width: 20rem;
 }
-
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.directory-headline {
+    grid-column: 2/3;
+}
 }
