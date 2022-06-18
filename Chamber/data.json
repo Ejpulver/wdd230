@@ -1,11 +1,67 @@
 {
     "businesses": [
         {
-            "name": "blank",
-            "address": "blank",
-            "phonenumber": "blank",
-            "website": "blank",
-            "membershiplevel": "blank"
+            "name": "Vivint Smart Home",
+            "address": "4907 North 300 West, Provo, UT 84604",
+            "phonenumber": "(801)506-6182",
+            "website": "https://www.vivint.com",
+            "membershiplevel": "Silver"
+        },
+        {
+            "name": "Novatek",
+            "address": "1964 Ironton Blvd, Provo, UT 84606",
+            "phonenumber": "(385)345-4600",
+            "website": "https://www.dovatekco.com",
+            "membershiplevel": "Bronze"
+        },
+        {
+            "name": "Nu Skin Enterprises",
+            "address": "75 W Center St, Provo, UT 84601",
+            "phonenumber": "(801)345-1000",
+            "website": "https://www.nuskin.com",
+            "membershiplevel": "Silver"
+        },
+        {
+            "name": "Qualtrics",
+            "address": "333 W River Park Dr, Provo, UT 84604",
+            "phonenumber": "(801)374-6682",
+            "website": "https://www.qualtrics.com/",
+            "membershiplevel": "Gold"
+        },
+        {
+            "name": "DishOne Satellite LLC",
+            "address": "2601 N Canyon Rd, Provo, UT 84604",
+            "phonenumber": "(801)705-5353",
+            "website": "",
+            "membershiplevel": "Bronze"
+        },
+        {
+            "name": "Utah Valley Regional Medical Center",
+            "address": "1055 N 300 W, Provo, UT 84604",
+            "phonenumber": "(801)357-7414",
+            "website": "https://intermountainhealthcare.org",
+            "membershiplevel": "Silver"
+        },
+        {
+            "name": "Check City",
+            "address": "1221 N 500 W, Provo, UT 84604",
+            "phonenumber": "(801)373-7171",
+            "website": "https://www.checkcity.com",
+            "membershiplevel": "Silver"
+        },
+        {
+            "name": "DHI Computing Service, Inc",
+            "address": "1525 W 820 N, Provo, UT 84601",
+            "phonenumber": "(800)453-9400",
+            "website": "https://www.dhicorp.com",
+            "membershiplevel": "Gold"
+        },
+        {
+            "name": "Provo City Library at Academy Square",
+            "address": "550 N University Ave, Provo, UT 84601",
+            "phonenumber": "(801)852-6650",
+            "website": "http://www.provolibrary.org",
+            "membershiplevel": "Bronze"
         }
     ]
 }
