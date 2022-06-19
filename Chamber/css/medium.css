@@ -4,6 +4,10 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 .current-date {
     margin-left: 100px;
 }
@@ -91,10 +95,6 @@ form {
 }
 form label.top input {
     max-width: 20rem;
-}
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 .directory-headline {
     grid-column: 2/3;

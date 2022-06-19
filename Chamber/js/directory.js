@@ -31,7 +31,7 @@ function displayBusinesses(business) {
     card.appendChild(website);
     card.appendChild(membership);
 
-    document.querySelector('div.cards').appendChild('card');
+    document.querySelector('div.cards').appendChild(card);
 
 }
 
