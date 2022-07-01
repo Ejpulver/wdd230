@@ -1,5 +1,5 @@
 @media only screen and (min-width: 64rem) {
-main {
+.home-main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 nav button {
@@ -68,5 +68,10 @@ form label.middle {
 }
 .directory-headline {
     grid-column: 2/4;
+}
+.discover-image {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
 }
 }

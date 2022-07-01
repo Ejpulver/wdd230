@@ -37,28 +37,33 @@
             <span id="currentdate"></span>
         </div>
     </header>
-    <main>
+    <main class="discover-main">
         <div class="images-section">
-        <picture>
-            <img src="images/byu-football-medium.jpeg" loading="lazy" alt="fans cheering at a byu football game">
-            <p>Loyal fans cheering on the local football team, the BYU Cougars.</p>
+        <picture class="discover-image">
+            <source srcset="images/byu-football-large.jpeg" media="(min-width: 64rem)">
+            <source srcset="images/byu-football-medium.jpeg" media="(min-width: 32.5rem)">
+            <img src="images/placeholder.jpeg" data-src="images/byu-football-small.jpeg" alt="BYU fans cheering"> 
         </picture>
-        <picture>
+        <p>There are not too many fans more loyal to their team than BYU football fans. They can be seen cheering
+            at local games, wearing BYU merch, or showing their pride at the infamous "holy war" game, where they play
+            against the University of Utah Utes in a battle proving who is the better team.
+        </p>
+        <picture class="discover-image">
             <img src="images/provo-downtown-original.jpeg" loading="lazy" alt="view of downtown provo from center street">
-            <p>View of downtown provo from center street.</p>
         </picture>
-        <picture>
+        <p>View of downtown provo from center street.</p>
+        <picture class="discover-image">
             <img src="images/provo-temple-2-medium.jpeg" loading="lazy" alt="picture of the provo temple">
-            <p>A view of the original Provo temple.</p>
         </picture>
-        <picture>
+        <p>A view of the original Provo temple.</p>
+        <picture class="discover-image">
             <img src="images/provo-temple-medium.jpeg" loading="lazy" alt="picture of the provo city center temple">
-            <p>An aerial view of the Provo city center temple grounds.</p>
         </picture>  
-        <picture>
+        <p>An aerial view of the Provo city center temple grounds.</p>
+        <picture class="discover-image">
             <img src="images/Y-mtn-view-medium.jpeg" loading="lazy" alt="View of Y mountain">
-            <p>A view of Y Mountain.</p>
         </picture>
+        <p>A view of Y Mountain.</p>
         </div>
 
         <div class="facts">
@@ -89,6 +94,6 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/lazyload.js"></script>
 </body>
 </html>
