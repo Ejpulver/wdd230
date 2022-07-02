@@ -74,3 +74,16 @@ async function apiFetch(apiURL) {
 function displayResults(weatherData) {
     temperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 }
+
+function updateLastVisit() {
+    let date = new Date()
+    let lastDate = new Date(window.localStorage.getItem('lastVisit'))
+    
+    let diff = date.getTime() - lastDate.getTime()
+
+    let dayDiff = Math.round(diff / (1000 * 3600 * 24))
+
+    document.querySelector('last-visit').textContent = "Last visit: " + dayDiff + " days ago"
+
+    window.localStorage.setItem("lastVisit", date)
+}
