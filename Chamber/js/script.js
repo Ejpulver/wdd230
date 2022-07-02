@@ -74,6 +74,7 @@ async function apiFetch(apiURL) {
 function displayResults(weatherData) {
     temperature.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
 }
+window.localStorage.setItem('lastVisit', date.now())
 
 function updateLastVisit() {
     let date = new Date()
