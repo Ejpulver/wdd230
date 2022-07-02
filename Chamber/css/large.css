@@ -69,9 +69,9 @@ form label.middle {
 .directory-headline {
     grid-column: 2/4;
 }
-.discover-image {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
+.images-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 }

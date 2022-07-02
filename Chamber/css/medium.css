@@ -99,4 +99,8 @@ form label.top input {
 .directory-headline {
     grid-column: 2/3;
 }
+picture img:hover {
+    position: relative;
+    bottom: 5px;
+}
 }
