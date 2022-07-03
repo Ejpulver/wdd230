@@ -26,7 +26,7 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div class="social-header">
@@ -37,31 +37,16 @@
             <span id="currentdate"></span>
         </div>
     </header>
-    <main>
-        <form  method="get" action="thank-you.html">
-            <h1>Join us!</h1>
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name * <input type="text" name="fname" placeholder="John" required></label>
-                <label class="top">Last Name * <input type="text" name="lname" placeholder="Doe" required></label>
-                <label class="top">Business Position Title <input type="text" name="btitle"></label>
-                <label class="top">Email * <input type="email" name="email" placeholder="johndoe@example.com" required></label>
-                <label class="top">Cell Phone Number <input type="tel" name="tel" placeholder="123-456-7890"required></label>
-                <label class="top">Business Name/Title <input type="text" name="bname" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Level Information</legend>
-                <div>Choose from our four membership levels</div>
-                <label class="middle"><input type="radio" name="membership" value="NP"> Non-Profit Membership</label>
-                <label class="middle"><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
-                <label class="middle"><input type="radio" name="membership" value="Silver"> Silver Membership</label>
-                <label class="middle"><input type="radio" name="membership" value="Gold"> Gold Membership</label>
-            </fieldset>
-            <fieldset>
-                <legend>Describe your Business</legend>
-                <label class="top"><input type="text" name="description"></label>
-            </fieldset>
-            <input type="submit" value="Apply For Membership" class="submitBtn">
+    <main class="contact-main">
+        <form method="get" action="thank-you.html">
+            <legend>Contact Us</legend>
+            <label class="top">First Name * <input type="text" name="fname" placeholder="John" required></label>
+            <label class="top">Last Name * <input type="text" name="lname" placeholder="Doe" required></label>
+            <label class="top">Email * <input type="email" name="email" placeholder="Johndoe@example.com" required></label>
+
+            <legend>What Questions do you have for the Chamber?</legend>
+            <label class="top"><input type="text" name="description"></label>
+            <input type="submit" value="submit" class="submitBtn">
         </form>
     </main>
     <footer>
