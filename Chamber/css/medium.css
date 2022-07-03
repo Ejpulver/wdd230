@@ -99,6 +99,9 @@ form {
 form label.top input {
     max-width: 20rem;
 }
+form fieldset {
+    margin: 2rem 2rem;
+}
 .directory-headline {
     grid-column: 2/3;
 }

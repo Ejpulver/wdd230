@@ -67,7 +67,7 @@ form label.middle {
     padding: .4rem 0;
 }
 form fieldset {
-    width: 50%;
+    width: 75%;
 }
 form legend {
     margin: 0 1rem;
@@ -90,8 +90,10 @@ form legend {
 }
 form {
     grid-column: 1;
+    grid-row: 1;
 }
 .contact-info {
+    grid-row: 1;
     grid-column: 2;
 }
 }
