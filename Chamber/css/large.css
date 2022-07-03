@@ -74,7 +74,7 @@ form label.middle {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
-picture img {
+.discover-image {
     padding-left: 10px;
 }
 }

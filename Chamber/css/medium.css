@@ -4,6 +4,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
+.section-card {
+    width: 320px;
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -99,7 +102,7 @@ form label.top input {
 .directory-headline {
     grid-column: 2/3;
 }
-picture img:hover {
+.discover-image:hover {
     position: relative;
     bottom: 5px;
 }
