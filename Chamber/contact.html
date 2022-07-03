@@ -38,14 +38,19 @@
         </div>
     </header>
     <main class="contact-main">
+        <div class="contact-info">
+        <h1>Provo Chamber of Commerce</h1>
+        <p>351 West Center Street Provo, UT</p>
+        <p>(801) 852-6505</p>
+        </div>
         <form method="get" action="thank-you.html">
+            <fieldset>
             <legend>Contact Us</legend>
             <label class="top">First Name * <input type="text" name="fname" placeholder="John" required></label>
             <label class="top">Last Name * <input type="text" name="lname" placeholder="Doe" required></label>
             <label class="top">Email * <input type="email" name="email" placeholder="Johndoe@example.com" required></label>
-
-            <legend>What Questions do you have for the Chamber?</legend>
-            <label class="top"><input type="text" name="description"></label>
+            <label class="top">What Questions do you have for the chamber?<input type="text" name="description"></label>
+            </fieldset>
             <input type="submit" value="submit" class="submitBtn">
         </form>
     </main>

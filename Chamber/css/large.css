@@ -66,6 +66,13 @@ form {
 form label.middle {
     padding: .4rem 0;
 }
+form fieldset {
+    width: 50%;
+}
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
 .directory-headline {
     grid-column: 2/4;
 }
@@ -76,5 +83,15 @@ form label.middle {
 }
 .discover-image {
     padding-left: 10px;
+}
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form {
+    grid-column: 1;
+}
+.contact-info {
+    grid-column: 2;
 }
 }
