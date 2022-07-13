@@ -27,7 +27,9 @@ main {
 section {
     background-color: #9A6D38;
 }
-
+.payson-temple-image {
+    display: none;
+}
 
 /*---footer---*/
 footer {
