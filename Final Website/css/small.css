@@ -1,0 +1,37 @@
+/*---general---*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Finlandica', sans-serif;
+}
+p {
+    font-family: 'Gentium Book Plus', serif;
+}
+
+
+
+/*---header---*/
+header {
+    background-color: #55868C;
+}
+
+
+/*---nav---*/
+nav {
+    background-color: #33673B;
+}
+
+
+/*---home-main---*/
+main {
+    background-color: #D8CBC7
+}
+section {
+    background-color: #9A6D38;
+}
+
+
+/*---footer---*/
+footer {
+    background-color: #19231A
+}
+
+
