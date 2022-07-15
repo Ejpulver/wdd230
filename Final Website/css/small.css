@@ -95,6 +95,7 @@ iframe {
     width: 75px;
     height: 75px;
     grid-column: 2;
+    margin-left: 20px;
 }
 .facebook-footer {
     width: 30px;
@@ -119,6 +120,7 @@ iframe {
 .footer-bottom-text {
     display: flex;
     flex-direction: row;
+    margin-left: 5px;
 }
 
 
