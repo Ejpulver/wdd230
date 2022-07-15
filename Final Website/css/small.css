@@ -11,18 +11,63 @@ p {
 /*---header---*/
 header {
     background-color: #55868C;
+    display: flex;
+    flex-direction: row;
 }
 .header-logo {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
+.header-facebook {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+}
+.header-twitter {
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
+.social-header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+header picture {
+    padding-top: 10px;
+}
+
+
 
 
 /*---nav---*/
-nav {
-    background-color: #33673B;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
-
+nav button {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 2rem;
+    padding-top: 15px;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul.open {
+    display: block;
+}
 
 /*---home-main---*/
 main {
@@ -38,6 +83,21 @@ section {
 /*---footer---*/
 footer {
     background-color: #19231A
+}
+iframe {
+    display: none;
+}
+.facebook-footer {
+    width: 50px;
+    height: 50px;
+}
+.twitter-footer {
+    width: 50px;
+    height: 50px;
+}
+logo-footer {
+    width: 100px;
+    height: 100px;
 }
 
 
