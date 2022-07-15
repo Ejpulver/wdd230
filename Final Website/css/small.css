@@ -97,14 +97,15 @@ iframe {
     grid-column: 2;
 }
 .facebook-footer {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     grid-column: 3;
 }
 .twitter-footer {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     grid-column: 3;
 }
+
 
 
