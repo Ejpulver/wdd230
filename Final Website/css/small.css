@@ -82,7 +82,7 @@ section {
 
 /*---footer---*/
 footer {
-    background-color: #19231A
+    background-color: #D81E5B;
 }
 iframe {
     display: none;
@@ -100,11 +100,21 @@ iframe {
     width: 30px;
     height: 30px;
     grid-column: 3;
+    padding-top: 10px;
 }
 .twitter-footer {
     width: 30px;
     height: 30px;
     grid-column: 3;
+    margin-top: -35px;
+}
+.map-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.address-2 {
+    margin-top: -20px;
 }
 
 
