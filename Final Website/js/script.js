@@ -29,8 +29,8 @@ const monthName = months[date.getMonth()];
 const year = date.getFullYear();
 const fullDate = `${dayName}, ${date.getDate()} ${monthName} ${year}`;
 
-document.getElementById("lastmodified").textContent = `${fullDate}`;
+document.getElementById("lastmodified").textContent = ` ${fullDate}`;
 
 let copyrightYear = new Date().getFullYear();
 
-document.querySelector(".copyright").textContent = `\u00A9 ${copyrightYear} | Temple Inn and Suites | `
+document.querySelector(".copyright").textContent = `\u00A9 ${copyrightYear} | Temple Inn and Suites |`

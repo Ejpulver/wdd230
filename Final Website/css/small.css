@@ -116,6 +116,10 @@ iframe {
 .address-2 {
     margin-top: -20px;
 }
+.footer-bottom-text {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
