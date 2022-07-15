@@ -12,6 +12,10 @@ p {
 header {
     background-color: #55868C;
 }
+.header-logo {
+    width: 100px;
+    height: 100px;
+}
 
 
 /*---nav---*/
