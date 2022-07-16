@@ -1,0 +1,36 @@
+@media only screen and (min-width: 35rem) {
+
+/*---header---*/
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.social-header {
+    grid-column: 3/6;
+}
+.header-facebook {
+    margin-left: 100px;
+}
+.header-twitter {
+    margin-left: 40px;
+}
+}
+.header-logo {
+    padding-bottom: 5px;
+}
+.social-header p {
+    font-size: 20px;
+}
+
+/*---home-main---*/
+
+
+
+
+/*---footer---*/
+
+
+
+
+
+}
