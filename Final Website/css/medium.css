@@ -9,11 +9,10 @@ header {
     grid-column: 3/6;
 }
 .header-facebook {
-    margin-left: 100px;
+    grid-column: 6;
 }
 .header-twitter {
-    margin-left: 40px;
-}
+    grid-column: 6;
 }
 .header-logo {
     padding-bottom: 5px;
@@ -28,9 +27,5 @@ header {
 
 
 /*---footer---*/
-
-
-
-
 
 }
