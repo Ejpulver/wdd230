@@ -1,3 +1,4 @@
+/*----footer stuff-----*/
 const days = [
     "Sunday",
     "Monday", 
@@ -32,3 +33,10 @@ const fullDate = `${dayName}, ${date.getDate()} ${monthName} ${year}`;
 let copyrightYear = new Date().getFullYear();
 
 document.querySelector(".copyright").textContent = `\u00A9 ${copyrightYear} | Temple Inn and Suites | ${fullDate}`;
+
+/*---nav button----*/
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+}
+const x = document.getElementById("hamburgerButton");
+x.onclick = toggleMenu;

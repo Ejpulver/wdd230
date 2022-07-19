@@ -67,10 +67,18 @@ nav ul li a:hover {
 nav ul.open {
     display: block;
 }
+nav.open {
+    background-color: #33673B;
+}
 
 /*---home-main---*/
 main {
     background-color: #D8CBC7
+}
+.home-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }
 section {
     background-color: #9A6D38;
@@ -78,6 +86,32 @@ section {
 .payson-temple-image {
     display: none;
 }
+.home-headline, .temple-info, .home-booking, .weather, .home-contact-us {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.home-headline {
+    grid-column: 1/4;
+    margin-top: 10px;
+}
+.temple-info {
+    grid-column: 1/4;
+}
+.home-booking {
+    grid-column: 1/4;
+}
+.weather {
+    grid-column: 1/4;
+}
+.home-contact-us {
+    grid-column: 1/4;
+    margin-bottom: 10px;
+}
+
 
 /*---footer---*/
 footer {
