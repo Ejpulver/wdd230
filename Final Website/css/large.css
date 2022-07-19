@@ -1,0 +1,81 @@
+@media only screen and (min-width: 64rem) {
+
+/*---header---*/
+header {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.social-header {
+    grid-column: 3/7;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+header picture {
+    grid-column: 2;
+}
+.header-logo {
+    grid-column: 3;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 15px;
+}
+.header-facebook, .header-twitter {
+    grid-column: 6;
+}
+.header-headline {
+    grid-column: 2/5;
+}
+.social-header p {
+    font-size: 25px;
+}
+
+
+
+
+/*---nav---*/
+
+nav button {
+    display: none;
+ }
+ nav ul {
+     display: flex;
+     flex-direction: row;
+ }
+ nav ul li a {
+     padding: .5rem 1rem;
+ }
+
+
+
+
+
+/*---home-main---*/
+
+
+
+
+
+/*---footer---*/
+
+iframe {
+    width: 600px;
+    height: 500px;
+}
+.logo-footer {
+    width: 125px;
+    height: 125px;
+}
+.facebook-footer {
+    width: 50px;
+    height: 50px;
+}
+.twitter-footer {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+}

@@ -120,6 +120,7 @@ iframe {
 .footer-bottom-text {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-left: 5px;
 }
 
