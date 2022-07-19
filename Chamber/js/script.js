@@ -50,6 +50,8 @@ if (dayName == `Monday` || dayName == `Tuesday`) {
 document.querySelector(".wind-speed").textContent = `Wind Speed: 5 mph`
 
 const temperature = document.querySelector(".temperature-2");
+const condition = document.querySelector(".condition");
+const humidity = document.querySelector(".humidity")
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Provo&units=imperial&appid=888875481bdd43d17422e63acf4cbc50';
 

@@ -40,3 +40,67 @@ function toggleMenu() {
 }
 const x = document.getElementById("hamburgerButton");
 x.onclick = toggleMenu;
+
+/*---lazy load---*/
+
+const imagesToLoad = document.querySelectorAll("img[data-src]");
+
+const imgOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px 50px 0px"
+};
+
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {image.removeAttribute('data-src');};
+};
+
+if('IntersectionObserver' in window) {
+    const imgObserver = new IntersectionObserver((items, imgObserver) => {
+        items.forEach((item) => {
+            if(item.isIntersecting) {
+                loadImages(item.target);
+                imgObserver.unobserve(item.target)
+            }
+        })
+    }, imgOptions);
+
+    imagesToLoad.forEach((img) => {
+        imgObserver.observe(img);
+    });
+}
+
+else {
+    imagesToLoad.forEach((img) => {
+        loadImages(img);
+    });
+}
+
+/*--- weather stuff ---*/
+
+temperature = document.querySelector(".temperature")
+
+const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.01&lon=-81.07&units=imperial&appid=888875481bdd43d17422e63acf4cbc50';
+
+apiFetch(url);
+
+async function apiFetch(apiURL) {
+    try {
+        const response = await fetch(apiURL);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data);
+        }
+        else {
+            throw Error(await response.text()); 
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayResults(weatherData) {
+    temperature.innerHTML = `${weatherData.current.temp.toFixed(0)}`
+
+}

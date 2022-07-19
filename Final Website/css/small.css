@@ -91,15 +91,46 @@ section {
     margin-right: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    align-items: center;
+    border-radius: 10px;
 }
 .home-headline {
     grid-column: 1/4;
     margin-top: 10px;
 }
+.home-headline h1 {
+    margin-top: 25px;
+}
+.home-headline p {
+    position: relative;
+    bottom: 20px;
+}
 .temple-info {
     grid-column: 1/4;
+    height: 250px;
+}
+.temple-info h2 {
+    border: 1.5px solid;
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    background-color: #C4925A;
+
+}
+.announced {
+    position: relative;
+    bottom: 20px;
+}
+.groundbreaking {
+    position: relative;
+    bottom: 40px;
+}
+.dedicated {
+    position: relative;
+    bottom: 60px;
+}
+.square-footage {
+    position: relative;
+    bottom: 80px;
 }
 .home-booking {
     grid-column: 1/4;
@@ -129,18 +160,19 @@ iframe {
     height: 75px;
     grid-column: 2;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .facebook-footer {
     width: 30px;
     height: 30px;
     grid-column: 3;
-    padding-top: 10px;
+    margin-top: 25px;
 }
 .twitter-footer {
     width: 30px;
     height: 30px;
     grid-column: 3;
-    margin-top: -35px;
+    margin-top: -30px;
 }
 .map-footer {
     display: flex;
