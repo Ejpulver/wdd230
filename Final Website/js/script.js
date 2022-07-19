@@ -78,7 +78,22 @@ else {
 
 /*--- weather stuff ---*/
 
-temperature = document.querySelector(".temperature")
+const temperature = document.querySelector(".temperature");
+const condition = document.querySelector(".condition");
+const humidity = document.querySelector(".humidity");
+
+const weather_date = new Date();
+const weather_date_2 = weather_date.setDate(date.getDate() + 1);
+const weather_date_3 = weather_date.setDate(date.getDate() + 2);
+
+const weather_day_1 = weather_date[date.getDay()];
+const weather_day_2 = weather_date_2[date.getDay()];
+const weather_day_3 = weather_date_3[date.getDay()];
+
+const three_day_1 = document.querySelector(".day-1");
+const three_day_2 = document.querySelector(".day-2");
+const three_day_3 = document.querySelector(".day-3");
+
 
 const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.01&lon=-81.07&units=imperial&appid=888875481bdd43d17422e63acf4cbc50';
 
@@ -101,6 +116,12 @@ async function apiFetch(apiURL) {
 }
 
 function displayResults(weatherData) {
-    temperature.innerHTML = `${weatherData.current.temp.toFixed(0)}`
+    temperature.innerHTML = `${weatherData.current.temp.toFixed(0)}\xB0 F`;
+    condition.innerHTML = `${weatherData.current.weather.icon}`;
+    humidity.innerHTML =  `${weatherData.current.humidity}%`;
 
-}
+    three_day_1.innerHTML = `${weather_day_1}`;
+    three_day_2.innerHTML = `${weather_day_2}`;
+    three_day_3.innerHTML = `${weather_day_3}`;
+
+};
