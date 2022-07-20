@@ -39,8 +39,66 @@ header nav {
 }
 
 /*---home-main---*/
+.home-main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.home-headline {
+    grid-column: 2/5;
+}
+.payson-temple-image {
+    display: block;
+}
+.temple-info {
+    height: auto;
+    grid-column: 1/6;
+}
+.weather {
+    grid-row: 3;
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
 
-
+}
+.weather-title {
+    margin-left: 50px;
+}
+.one-day-forecast {
+    grid-column: 1;
+}
+.three-day-headline, .three-day-forecast {
+    grid-column: 2;
+    display: block;
+}
+.three-day-headline {
+    grid-row: 1;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+}
+.temperature {
+    left: 50px;
+    bottom: 20px;
+}
+.condition, .humidity {
+    left: 50px;
+    bottom: 15px;
+    font-size: larger;
+}
+.home-headline p {
+    font-size: large;
+}
+.home-booking {
+    grid-row: 4/5;
+    grid-column: 1/4;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.home-contact-us {
+    grid-row: 4/5;
+    grid-column: 4/6;
+}
 
 
 /*---footer---*/

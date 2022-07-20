@@ -82,6 +82,10 @@ const temperature = document.querySelector(".temperature");
 const condition = document.querySelector(".condition");
 const humidity = document.querySelector(".humidity");
 
+const day_1 = document.querySelector(".day-1-temp");
+const day_2 = document.querySelector(".day-2-temp");
+const day_3 = document.querySelector(".day-3-temp");
+
 const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=40.01&lon=-81.07&units=imperial&appid=888875481bdd43d17422e63acf4cbc50';
 
 apiFetch(url);
@@ -104,9 +108,11 @@ async function apiFetch(apiURL) {
 
 function displayResults(weatherData) {
     temperature.innerHTML = `${weatherData.current.temp.toFixed(0)}\xB0 F`;
-    condition.innerHTML = `${weatherData.current.weather.description}`;
-    humidity.innerHTML =  `${weatherData.current.humidity}%`;
+    condition.innerHTML = `Weather Condition: ${weatherData.current.weather.description}`;
+    humidity.innerHTML =  `Humidity: ${weatherData.current.humidity}%`;
 
-    
+    day_1.innerHTML = `${weatherData.daily.temp.day}\xB0 F`;
+
+
 
 };

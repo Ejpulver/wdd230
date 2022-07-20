@@ -137,7 +137,7 @@ section {
 }
 .weather {
     grid-column: 1/4;
-    position: relative;
+    height: 100px;
 }
 .three-day-headline, .three-day-forecast {
     display: none;
@@ -152,7 +152,14 @@ section {
 }
 .temperature {
     position: relative;
-    left: 30px;
+    right: 45px;
+    bottom: 15px;
+    font-size: xx-large;
+}
+.condition, .humidity {
+    position: relative;
+    left: 55px;
+    bottom: 50px;
 }
 .home-contact-us {
     grid-column: 1/4;
