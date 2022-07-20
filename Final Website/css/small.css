@@ -137,6 +137,22 @@ section {
 }
 .weather {
     grid-column: 1/4;
+    position: relative;
+}
+.three-day-headline, .three-day-forecast {
+    display: none;
+}
+.weather-title {
+    margin-top: 5px;
+}
+.one-day-forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.temperature {
+    position: relative;
+    left: 30px;
 }
 .home-contact-us {
     grid-column: 1/4;
