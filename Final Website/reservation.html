@@ -38,7 +38,39 @@
         </div>
     </header>
     <main class="reservation-main">
-
+        <h1 class="reservation-headline">Book a Stay with Us.</h1>
+        <form method="get" action="thank-you.html">
+            <fieldset>
+                <legend>Guest Info</legend>
+            <label>First Name * <input type="text" name="fname" placeholder="John" required></label>
+            <label>Last Name * <input type="text" name="lname" placeholder="Doe" required></label>
+            <label>Email * <input type="email" name="email" placeholder="myemail@example.com" required></label>
+            <label>Phone Number * <input type="tel" name="number" placeholder="123-456-7890" required></label>
+            <label>Home State/Country * <input type="text" name="country" placeholder="John" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Room Info</legend>
+                <label>Location <select name="Location">
+                    <option value="Bethesda, MD">Bethesda, MD</option>
+                    <option value="Provo, UT">Provo, UT</option>
+                    <option value="Portland, OR">Portland, OR</option>
+                    <option value="Los Angeles, CA">Los Angeles, CA</option>
+                    <option value="New York, NY">New York, NY</option>
+                </select></label>
+                <label>Check in * <input type="date" name="checkin" required></label>
+                <label>Check Out * <input type="date" name="checkout" required></label>
+                <label>Number of Rooms * <input type="text" name="numrooms" required></label>
+                <label>Room Type <select name="Room Type">
+                    <option value="1 Queen Bed">1 Queen Bed</option>
+                    <option value="2 Queens Beds">2 Queen Beds</option>
+                    <option value="1 King Bed">1 King Bed</option>
+                </select></label>
+            </fieldset>
+            <fieldset>
+                <label class="accomodations">Additional Accomodations/Comments: <input type="text" name="comments"></label>
+            </fieldset>
+            <input type="submit" value="Book Now" class="submitBtn">
+        </form>
     </main>
     <footer>
         <div class="social-footer">

@@ -169,6 +169,49 @@ section {
     margin-bottom: 10px;
 }
 
+/*-------Make a reservation styling -----*/
+.reservation-headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    padding: 10px 10px;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: .5rem;
+}
+form label {
+    display: block;
+    padding-top: 1rem;
+}
+form label input, form label select {
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 20rem;
+}
+.accomodations input {
+    height: 100px;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #9A6D38;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    width: 96%;
+    margin-left: 5px;
+    max-width: 20rem;
+}
+
+
 
 /*---footer---*/
 footer {
