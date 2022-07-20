@@ -48,10 +48,42 @@ header nav {
 }
 .payson-temple-image {
     display: block;
+    width: 100%;
+    grid-column: 3/5;
+    grid-row: 2/4;
+    position: relative;
+    right: 40px;
+    top: 30px;
 }
 .temple-info {
-    height: auto;
+    height: 400px;
     grid-column: 1/6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.announced, .groundbreaking, .dedicated, .square-footage {
+    margin-left: 20px;
+}
+.temple-info h2 {
+    grid-column: 2/4;
+    margin: auto;
+    margin-top: 10px;
+}
+.announced {
+    grid-column: 1;
+    grid-row: 2;
+}
+.groundbreaking {
+    grid-column: 1;
+    grid-row: 3;
+}
+.dedicated {
+    grid-column: 1;
+    grid-row: 4;
+}
+.square-footage {
+    grid-column: 1;
+    grid-row: 5;
 }
 .weather {
     grid-row: 3;

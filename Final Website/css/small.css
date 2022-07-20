@@ -86,6 +86,9 @@ section {
 .payson-temple-image {
     display: none;
 }
+.home-headline img {
+    display: none;
+}
 .home-headline, .temple-info, .home-booking, .weather, .home-contact-us {
     margin-left: 10px;
     margin-right: 10px;

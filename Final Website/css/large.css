@@ -54,10 +54,29 @@ nav button {
 
 
 
-
-
 /*---home-main---*/
-
+.home-main {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.home-headline {
+    grid-column: 1/4;
+}
+.home-headline img {
+    display: block;
+    margin-top: -10px;
+}
+.temple-info {
+    height: auto;
+    grid-column: 4/7;
+    margin-top: 10px;
+}
+.weather {
+    grid-column: 2/6;
+}
+.home-booking {
+    grid-column: 2/4;
+}
 
 
 
