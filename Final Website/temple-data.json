@@ -1,0 +1,32 @@
+{
+    "temples": [
+        {
+            "name": "Rexburg Idaho",
+            "address": "720 S 2nd E. Rexburg, ID 83440",
+            "phonenumber": "(208)-656-0880",
+            "services": "Clothing rental available\n No cafeteria available\n No patron housing available\n Distribution center nearby",
+            "closures": "Saturday, 23 July 2022\n Saturday, 1 October 2022\n Wednesday, 23 November 2022 - Thursday, 24 November 2022\n Saturday, 24 December 2022\n Saturday, 31 December 2022"
+        },
+        {
+            "name": "Los Angeles California",
+            "address": "10777 Santa Monica Blvd Los Angeles, CA 90025",
+            "phonenumber": "(310)-474-5569",
+            "services": "Clothing rental available\n No cafeteria available\n Patron housing available\n Distribution center nearby",
+            "closures": "Monday, 11 July 2022 - Monday, 1 August 2022\n Saturday, 1 October 2022\n Tuesday, 22 November 2022 - Thursday, 24 November 2022\n Saturday, 24 December 2022\n Saturday, 31 December 2022"
+        },
+        {
+            "name": "Dallas Texas",
+            "address": "6363 Willow Ln. Dallas, TX 75230",
+            "phonenumber": "(972)-991-1273",
+            "services": "Clothing rental available\n No cafeteria available\n No patron housing available\n Distribution center nearby",
+            "closures": "Saturday, 1 October 2022\n Wednesday, 23 November 2022 (Limited Operations)\n Thursday, 24 November 2022\n Saturday, 24 December 2022\n Saturday, 31 December 2022"
+        },
+        {
+            "name": "Manhattan New York",
+            "address": "125 Columbus Ave, Fourth Floor New York, NY 10023",
+            "phonenumber": "(917)-441-8220",
+            "services": "Clothing rental available\n No cafeteria available\n No patron housing available\n Distribution center nearby",
+            "closures": "Monday, 25 July 2022 - Monday, 8 August 2022\n Saturday, 1 October 2022 - Sunday, 2 October 2022\n Thursday, 24 November 2022 - Friday, 25 November 2022\n Saturday, 24 December 2022\n Saturday, 31 December 2022"
+        }
+    ]
+}
