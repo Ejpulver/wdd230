@@ -136,8 +136,6 @@ fetch(requestURL)
     card.className = 'section-card';
     let templeName = document.createElement('h2');
     templeName.className = 'temple-name';
-    let image = document.createElement('img');
-    image.className = 'temple-image';
     let address = document.createElement('p');
     address.className = 'temple-address';
     let phoneNumber = document.createElement('p');

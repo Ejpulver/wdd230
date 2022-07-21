@@ -137,6 +137,11 @@ header nav {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+}
+.temple-address {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
