@@ -116,3 +116,7 @@ function displayResults(weatherData) {
 
 
 };
+
+/*--- temple cards stuff ----*/
+
+const requestURL = '';
