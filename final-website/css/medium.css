@@ -131,6 +131,13 @@ header nav {
     grid-row: 4/5;
     grid-column: 4/6;
 }
+.section-card {
+    width: 320px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 
 
 /*---footer---*/
