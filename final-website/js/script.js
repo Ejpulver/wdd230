@@ -119,4 +119,45 @@ function displayResults(weatherData) {
 
 /*--- temple cards stuff ----*/
 
-const requestURL = '';
+const requestURL = 'https://ejpulver.github.io/wdd230/final-website/temple-data.json';
+const cards = document.querySelector(".cards");
+fetch(requestURL)
+.then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    console.table(data);  // temporary checking for valid response and data parsing
+    const businesses = data['temples']
+    businesses.forEach(displayTemples);
+  });
+
+  function displayTemples (temple) {
+    let card = document.createElement('section');
+    card.className = 'section-card';
+    let templeName = document.createElement('h2');
+    templeName.className = 'temple-name';
+    let address = document.createElement('p');
+    address.className = 'temple-address';
+    let phoneNumber = document.createElement('p');
+    phoneNumber.className = 'temple-phone-number';
+    let services = document.createElement('p');
+    services.className = 'temple-services';
+    let closures = document.createElement('p');
+    closures.className = 'temple-closures';
+
+    templeName.textContent = temple.name;
+    address.textContent = `Address: ${temple.address}`;
+    phoneNumber.textContent = `Phone Number: ${temple.phonenumber}`;
+    services.textContent = temple.services;
+    closures.textContent = temple.closures;
+
+    card.appendChild(templeName);
+    card.appendChild(address);
+    card.appendChild(phoneNumber);
+    card.appendChild(services);
+    card.appendChild(closures);
+
+    document.querySelector('div.cards').appendChild(card);
+
+
+  }
