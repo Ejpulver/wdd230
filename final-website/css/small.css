@@ -214,6 +214,10 @@ section {
     margin-left: 10px;
     margin-right: 10px;
 }
+.home-booking a {
+    text-decoration: none;
+    color: black;
+}
 
 /*-------Make a reservation styling -----*/
 .reservation-headline {
